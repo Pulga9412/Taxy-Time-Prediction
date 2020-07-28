@@ -8,7 +8,10 @@ To meet the objective of this project, it was carried out in three phases or sta
 2. Preparation and selection of the model.
 3. Results and recommendations.
 
-## CONCLUSIONS
+## Results
+After training and adjusting the models, the corresponding predictions were made. The RMSE seeks to achieve the values closest to zero, in this case the model that came closest to said premise, was the LIGHGBM compared to its analog the XGBOOST, in addition to this it was observed that the linear regression does not finish adjusting for Adequately to the objective, since this requires that all the data fulfill the hypothesis of linearity, a fact that is not observed in the entire sample.
+
+## Conclusions
 - By comparing the various regression models used in this project, it was observed that the LightGbm allows us to estimate a better predictive model in relation to its analogs.
 - The most relevant characteristics for the creation of the best model have been the variables related to the distance between the starting point and the destination, location of the trips, type of trip, average duration, number of passengers thereof, etc.
 -  The implementation of technologies such as Machine Learning allow companies to be prepared for the new challenges of the new digital era in which we find ourselves. From the implementation of models that facilitate the understanding and understanding of the needs of its consumers and thus offer a better service.
